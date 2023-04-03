@@ -2,9 +2,9 @@ const operations = require('./operations.js')
 
 function howToUse () {
   console.log('Comment se servir de la calculatrice ?')
-  console.log('node app.js <operation> <nombre1> <nombre2>')
+  console.log('npm start <operation> <nombre1> <nombre2>')
   console.log('\nOpérations valides: add (+), sub (-), mul (x), div (/), perc (%), square(²), sqrt(√), pow(^)')
-  console.log('Example: node app.js add 5 10')
+  console.log('Example: npm start add 5 10')
 }
 
 function main () {
